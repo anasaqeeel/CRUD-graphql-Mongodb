@@ -1,4 +1,5 @@
 const { ApolloServer } = require('apollo-server');
+//importing required modules
 const connectDB = require('./db');
 const typeDefs = require('./type_def');
 const resolvers = require('./resolver');
